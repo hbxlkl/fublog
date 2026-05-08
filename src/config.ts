@@ -53,9 +53,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "石门摄影",
+	bio: "摄影作品分享和展示",
 	links: [
 		{
 			name: "Twitter",
@@ -65,14 +65,14 @@ export const profileConfig: ProfileConfig = {
 			url: "https://twitter.com",
 		},
 		{
-			name: "Steam",
+			name: "Steam游戏平台",
 			icon: "fa6-brands:steam",
 			url: "https://store.steampowered.com",
 		},
 		{
-			name: "GitHub",
+			name: "GitHub代码仓库",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/hbxlkl/fublog",
 		},
 	],
 };
