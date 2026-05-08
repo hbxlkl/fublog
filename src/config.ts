@@ -88,3 +88,16 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 	// Please select a dark theme, as this blog theme currently only supports dark background color
 	theme: "github-dark",
 };
+
+
+
+
+
+
+// 新增seo配置（解决日志链接域名显示异常，直接复制粘贴，已替换为你的域名）
+export const seo = {
+  metaTitle: `${siteConfig.title} | ${siteConfig.subtitle}`,
+  metaDescription: siteConfig.subtitle,
+  // 已替换为你的实际域名：https://blog.87717071.xyz，无需再修改
+  ogImage: `https://blog.87717071.xyz/assets/images/banner.png`,
+};
