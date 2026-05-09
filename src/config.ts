@@ -56,7 +56,7 @@ export const navBarConfig: NavBarConfig = {
 
 
 
-// 个人资料配置开始：替换英文为中文
+
 export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/logo.jpg", // 替换为你的头像路径（放在src/assets/images下）Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "石门摄影",
