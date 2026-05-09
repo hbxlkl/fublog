@@ -31,12 +31,14 @@ export const siteConfig: SiteConfig = {
 		enable: true, // Display the table of contents on the right side of the post
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
+
+	
 	favicon: [
-		// Leave this array empty to use the default favicon
+		// 网站ico图标设置 Leave this array empty to use the default favicon
 		 {
-		   src: '/favicon/favicon.ico',    // Path of the favicon, relative to the /public directory
-		   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		   src: '/favicon/favicon.ico',    // 网站ico图标地址 图标路径，对应上面上传的路径（相对于public目录，不可写错）
+		   theme: 'light',              // 可选：设置为light/dark，仅当有明暗模式不同图标时需配置，默认light即可
+		   sizes: '32x32',              // 可选：填写你的图标尺寸，与准备的图标尺寸一致，增强兼容性
 		 }
 	],
 };
