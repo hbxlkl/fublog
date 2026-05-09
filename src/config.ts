@@ -86,6 +86,9 @@ export const profileConfig: ProfileConfig = {
 };
 
 
+	// - 图标使用说明：配置中的icon（如fa6-brands:github）来自icones.js.org（https://icones.js.org/），若新增图标（如知乎、微信），需先执行pnpm add @iconify-json/对应图标集（例：pnpm add @iconify-json/fa6-brands）安装图标集。
+
+
 
 
 export const licenseConfig: LicenseConfig = {
