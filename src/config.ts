@@ -79,17 +79,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/hbxlkl/fublog",
 		},
-
-
-		// 可新增国内平台链接，例：
-		// {
-		//   name: "知乎",
-		//   icon: "fa6-brands:zhihu", // 图标 需执行pnpm add @iconify-json/fa6-brands安装图标 图标使用说明：配置中的icon（如fa6-brands:github）来自icones.js.org（https://icones.js.org/），若新增图标（如知乎、微信），需先执行pnpm add @iconify-json/对应图标集
-		//   url: "你的知乎地址",
-		// }
-		// 可新增国内平台链接结束
-
-		
 	],
 };
 
