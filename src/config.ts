@@ -43,12 +43,12 @@ export const siteConfig: SiteConfig = {
 
 
 
-
+	// 下面代码是顶部链接
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
+		LinkPreset.Home, // 主页 自动中文
+		LinkPreset.Archive, // 归档 自动中文
+		LinkPreset.About, // 关于 自动中文
 		{
 			name: "GitHub仓库",
 			url: "https://github.com/hbxlkl/fublog", // Internal links should not include the base path, as it is automatically added
