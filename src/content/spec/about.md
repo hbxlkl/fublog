@@ -1,9 +1,10 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+This is the demo site for [Fublog](https://github.com/hbxlkl/fublog).
 
-::github{repo="saicaca/fuwari"}
+::github{repo="hbxlkl/fublog"}
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> 欢迎来访石门摄影，记录自己的生活学习中的点点滴滴，提升摄影水平，一起交流，一起提高！
+>
+> - [哔哩哔哩](https://www.bilibili.com/)
+> - [抖音](https://www.douyin.com/)
+> - [spaceship](https://www.spaceship.com/zh/)
