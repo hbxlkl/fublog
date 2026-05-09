@@ -29,13 +29,13 @@ export const siteConfig: SiteConfig = {
 		enable: true, // Display the table of contents on the right side of the post
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
-	favicon: [
+	favicon: [  // 网站图标修改
 		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/public/favicon/favicon.ico',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		 {
+		   src: '/favicon/favicon.ico',    // Path of the favicon, relative to the /public directory 图标地址
+		   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
+		   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
+		 }
 	],
 };
 
