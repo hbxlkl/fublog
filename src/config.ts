@@ -8,9 +8,10 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "石门摄影",
-	subtitle: "摄影作品分享和展示",
-	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	title: "石门摄影", // 你的博客中文标题
+	subtitle: "摄影作品分享和展示", // 你的中文副标题/简介
+	lang: "zh_CN", // 博客语言 Language code, e.g. 'en', 简体中文编码'zh_CN', 'ja', etc.
+	themeColor: {
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
 		fixed: false, // Hide the theme color picker for visitors
@@ -39,21 +40,25 @@ export const siteConfig: SiteConfig = {
 	],
 };
 
+// 导航栏配置：
 export const navBarConfig: NavBarConfig = {
 	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
+		LinkPreset.Home, // 首页（预设项，无需修改，会自动显示中文）
+		LinkPreset.Archive, // 归档（预设项，无需修改，会自动显示中文）
+		LinkPreset.About, // 关于（预设项，无需修改，会自动显示中文）
 		{
-			name: "GitHub",
-			url: "https://github.com/hbxlkl/fublog", // Internal links should not include the base path, as it is automatically added
+			name: "GitHub仓库", // 平台名可保留英文，也可改为「代码仓库」
+			url: "https://github.com/hbxlkl/fublog", // 替换为你的GitHub地址 Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
 };
 
+// 导航栏配置结束
+
+// 个人资料配置开始：替换英文为中文
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/logo.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	avatar: "assets/images/logo.jpg", // 替换为你的头像路径（放在src/assets/images下）Relative to the /src directory. Relative to the /public directory if it starts with '/'
 	name: "石门摄影",
 	bio: "摄影作品分享和展示",
 	links: [
@@ -74,6 +79,17 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/hbxlkl/fublog",
 		},
+
+
+		// 可新增国内平台链接，例：
+		// {
+		//   name: "知乎",
+		//   icon: "fa6-brands:zhihu", // 图标 需执行pnpm add @iconify-json/fa6-brands安装图标 图标使用说明：配置中的icon（如fa6-brands:github）来自icones.js.org（https://icones.js.org/），若新增图标（如知乎、微信），需先执行pnpm add @iconify-json/对应图标集
+		//   url: "你的知乎地址",
+		// }
+		// 可新增国内平台链接结束
+
+		
 	],
 };
 
