@@ -52,9 +52,14 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive, // 归档 自动中文
 		LinkPreset.About, // 关于 自动中文
 		{
-			name: "GitHub仓库",
-			url: "https://github.com/hbxlkl/fublog", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
+			name: "GitHub仓库", // 链接名称
+			url: "https://github.com/hbxlkl/fublog", // 链接网址
+			external: true, // 显示一个外部链接图标，并会在新标签页中打开
+		},
+				{
+			name: "哔哩哔哩", // 链接名称
+			url: "https://www.bilibili.com", // 链接网址
+			external: true, // 显示一个外部链接图标，并会在新标签页中打开
 		},
 	],
 };
