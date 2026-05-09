@@ -1,5 +1,5 @@
 # About
-This is the demo site for [Fublog](https://github.com/hbxlkl/fublog).
+这里是演示网站👉： [Fublog](https://github.com/hbxlkl/fublog).
 
 ::github{repo="hbxlkl/fublog"}
 
