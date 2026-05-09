@@ -40,7 +40,7 @@ export const siteConfig: SiteConfig = {
 	],
 };
 
-// 导航栏配置：
+
 export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home, // 首页（预设项，无需修改，会自动显示中文）
@@ -54,7 +54,7 @@ export const navBarConfig: NavBarConfig = {
 	],
 };
 
-// 导航栏配置结束
+
 
 // 个人资料配置开始：替换英文为中文
 export const profileConfig: ProfileConfig = {
