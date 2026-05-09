@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// Leave this array empty to use the default favicon
 		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
+		//   src: '/favicon/favicon.ico',    // Path of the favicon, relative to the /public directory
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
@@ -91,13 +91,3 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 
 
 
-
-
-
-// 新增seo配置（解决日志链接域名显示异常，直接复制粘贴，已替换为你的域名）
-export const seo = {
-  metaTitle: `${siteConfig.title} | ${siteConfig.subtitle}`,
-  metaDescription: siteConfig.subtitle,
-  // 已替换为你的实际域名：https://blog.87717071.xyz，无需再修改
-  ogImage: `https://blog.87717071.xyz/assets/images/banner.png`,
-};
