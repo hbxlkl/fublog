@@ -52,12 +52,27 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive, // 归档 自动中文
 		LinkPreset.About, // 关于 自动中文
 
+      {
+      name: "友链",
+      url: "#",
+      children: [
+        {
+          name: "石门摄影",
+          url: "https://blog.87717071.xyz",
+          external: true
+        },
+        {
+          name: "摄影友站A",
+          url: "https://xxx.com",
+          external: true
+        },
+
 		{			
 			name: "GitHub仓库", // 链接名称
 			url: "https://github.com/hbxlkl/fublog", // 链接网址
 			external: true, // 显示一个外部链接图标，并会在新标签页中打开
 		},
-				{
+		{
 			name: "哔哩哔哩", // 链接名称
 			url: "https://www.bilibili.com", // 链接网址
 			external: true, // 显示一个外部链接图标，并会在新标签页中打开
