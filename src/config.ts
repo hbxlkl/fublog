@@ -54,21 +54,11 @@ export const navBarConfig: NavBarConfig = {
 
 {
   name: "友链",
-  url: "#",
+  url: "",
   children: [
     {
-      name: "石门摄影",
+      name: "测试站点",
       url: "https://blog.87717071.xyz",
-      external: true
-    },
-    {
-      name: "摄影友站A",
-      url: "https://xxx.com",
-      external: true
-    },
-    {
-      name: "摄影友站B",
-      url: "https://xxx.com",
       external: true
     }
   ]
