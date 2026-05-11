@@ -51,7 +51,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home, // 主页 自动中文
 		LinkPreset.Archive, // 归档 自动中文
 		LinkPreset.About, // 关于 自动中文
-		LinkPreset.友链, // 友链 自动中文
+
 
 		
 		{			
