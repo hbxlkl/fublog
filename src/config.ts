@@ -52,27 +52,8 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive, // 归档 自动中文
 		LinkPreset.About, // 关于 自动中文
 
-{
-      name: "友链",
-      url: "",
-      children: [
-        {
-          name: "石门摄影",
-          url: "https://blog.87717071.xyz",
-          external: true
-        },
-        {
-          name: "摄影友站A",
-          url: "https://blog.87717071.xyz",
-          external: true
-        },
-        {
-          name: "摄影友站B",
-          url: "https://blog.87717071.xyz",
-          external: true
-        }
-      ]
-    },
+
+
     {
       name: "GitHub",
       url: "https://github.com/saicaca/fuwari",
