@@ -51,12 +51,8 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Home, // 主页 自动中文
 		LinkPreset.Archive, // 归档 自动中文
 		LinkPreset.About, // 关于 自动中文
+		LinkPreset.友链, // 友链 自动中文
 
-     {
-      name: "友链", // 顶部导航显示的友链名称（和示例网站一致，简洁好记）
-      url: "/links", // 跳转独立友链页面的路径（固定写法，不可修改）
-      external: false, // 关键：设为false，在当前窗口打开（和示例网站一致）
-    },   
 		
 		{			
 			name: "GitHub仓库", // 链接名称
