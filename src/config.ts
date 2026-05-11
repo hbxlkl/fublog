@@ -54,13 +54,6 @@ export const navBarConfig: NavBarConfig = {
 
 
 
-    {
-      name: "GitHub",
-      url: "https://github.com/saicaca/fuwari",
-      external: true
-    }
-  ]
-};
 
 		{			
 			name: "GitHub仓库", // 链接名称
