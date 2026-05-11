@@ -53,16 +53,33 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About, // 关于 自动中文
 
 {
-  name: "友链",
-  url: "",
-  children: [
+      name: "友链",
+      url: "",
+      children: [
+        {
+          name: "石门摄影",
+          url: "https://blog.87717071.xyz",
+          external: true
+        },
+        {
+          name: "摄影友站A",
+          url: "https://blog.87717071.xyz",
+          external: true
+        },
+        {
+          name: "摄影友站B",
+          url: "https://blog.87717071.xyz",
+          external: true
+        }
+      ]
+    },
     {
-      name: "测试站点",
-      url: "https://blog.87717071.xyz",
+      name: "GitHub",
+      url: "https://github.com/saicaca/fuwari",
       external: true
     }
   ]
-},
+};
 
 		{			
 			name: "GitHub仓库", // 链接名称
