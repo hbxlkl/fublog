@@ -23,8 +23,8 @@ export const siteConfig: SiteConfig = {
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			text: "石 门 摄 影 博 客", // 图片上文字显示 Credit text to be displayed
+			url: "https://blog.87717071.xyz", // (Optional) 文字图片链接 URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
