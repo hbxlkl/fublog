@@ -50,7 +50,8 @@ export const navBarConfig: NavBarConfig = {
 	links: [
 		LinkPreset.Home, // 主页 自动中文
 		LinkPreset.Archive, // 归档 自动中文
-		LinkPreset.About, // 关于 自动中文	
+		LinkPreset.About, // 关于 自动中文
+		LinkPreset.友链, // 关于 自动中文
 		{			
 			name: "GitHub仓库", // 链接名称
 			url: "https://github.com/hbxlkl/fublog", // 链接网址
