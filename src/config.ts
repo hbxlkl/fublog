@@ -52,7 +52,11 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive, // 归档 自动中文
 		LinkPreset.About, // 关于 自动中文
 
-
+		{			
+			name: "友链", // 链接名称
+			url: "#", // 链接网址
+			external: true, // 显示一个外部链接图标，并会在新标签页中打开
+		},
 
 		{			
 			name: "GitHub仓库", // 链接名称
