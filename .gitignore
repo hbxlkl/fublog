@@ -1,0 +1,12 @@
+# SoloMD AutoGit defaults
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
+.obsidian/workspace*
+.obsidian/cache
+.vscode/
+*.tmp
+*~
+# SoloMD workspace metadata — per-device, do not sync.
+.solomd/

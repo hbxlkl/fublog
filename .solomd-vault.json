@@ -1,0 +1,8 @@
+{
+  "kdf": {
+    "iterations": 2,
+    "mem_kib": 19456,
+    "parallelism": 1
+  },
+  "salt": "e9e3323b8c1f64c779d8227a079f4306"
+}
